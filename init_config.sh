@@ -26,8 +26,6 @@ rm Oracle_VM_VirtualBox_Extension_Pack-6.1.26.vbox-extpack
 #authy
 sudo apt install -y snapd
 sudo snap install authy
-echo "/snap/bin/authy" > authy.sh
-chmod +x authy.sh
 
 #protonvpn
 wget https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
